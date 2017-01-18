@@ -1,0 +1,30 @@
+
+body {
+    background-color:maroon;
+}
+img {
+    position: relative;
+    left: 150px;
+    z-index: -1;
+}
+#page-wrap {
+     width: 800px;
+     margin: 0 auto;
+}
+#entry1 {
+	width: 500px;
+	margin:0 auto;
+  float:left;
+  margin:0px;
+	}
+#profile {
+  background-color:grey;
+  border-style:solid;
+  height:800px;
+  float:left;
+  margin:20px;
+}
+a:link {font-family:bodoni; font-size:20px; color:black; text-decoration:none;}
+a:visited {font-family:bodoni; font-size:20px; color:black; text-decoration:none;}
+a:hover {font-family:bodoni; font-size:20px; color:white; text-decoration:none;}
+a:active {font-family:bodoni; font-size:20px; color:white; text-decoration:none;}
