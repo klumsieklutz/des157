@@ -1,6 +1,6 @@
 
 body {
-    background-color:maroon;
+    background-color:#668867;
 }
 img {
     position: relative;
@@ -23,6 +23,13 @@ img {
   height:800px;
   float:left;
   margin:20px;
+}
+#selfie {
+
+}
+#foot {
+  position:relative;
+  left:200px;
 }
 a:link {font-family:bodoni; font-size:20px; color:black; text-decoration:none;}
 a:visited {font-family:bodoni; font-size:20px; color:black; text-decoration:none;}
