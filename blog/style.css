@@ -72,6 +72,9 @@ a:active {
   overflow: auto;
 }
 
+li {
+  padding:5px;
+}
 footer {
   position: fixed;
   width: 782px;
