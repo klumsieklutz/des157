@@ -1,6 +1,5 @@
 body {
   font-family: verdana;
-
 }
 
 h1 {
@@ -12,17 +11,17 @@ h1 {
 Section {
   padding: 50px;
 }
-h3 {
+
+h2 {
   text-align: center;
   color: #00cc88;
-  width: 200px;
 }
 
 nav {
   position: absolute;
   text-align: center;
   right: 0px;
-  padding-right:50px;
+  padding-right: 50px;
 }
 
 a:link {
@@ -51,7 +50,7 @@ a:active {
 
 p {
   text-align: left;
-  width: 400px;
+  width: 750px;
   margin: 0 auto;
   color: grey;
 }
@@ -60,4 +59,3 @@ p {
   color: grey;
   text-align: center;
 }
-
