@@ -1,6 +1,5 @@
 body {
   font-family: verdana;
-
 }
 
 h1 {
@@ -12,8 +11,9 @@ h1 {
 Section {
   padding: 50px;
 }
+
 h3 {
-  text-align: center;
+  text-align: left;
   color: #00cc88;
   width: 200px;
 }
@@ -22,7 +22,7 @@ nav {
   position: absolute;
   text-align: center;
   right: 0px;
-  padding-right:50px;
+  padding-right: 50px;
 }
 
 a:link {
@@ -61,3 +61,29 @@ p {
   text-align: center;
 }
 
+#one {
+  height: 200px;
+  width: 500px;
+  float: left;
+  margin-top: 0px;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+#two {
+  height: 200px;
+  width: 500px;
+  float: left;
+  margin-top: 0px;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+#three {
+  height: 200px;
+  width: 500px;
+  float: left;
+  margin-top: 0px;
+  padding-top: 50px;
+  padding-left: 50px;
+}
