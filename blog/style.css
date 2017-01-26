@@ -1,5 +1,5 @@
 body {
-  font-family: verdana,
+  font-family: verdana;
 }
 
 li {
@@ -19,7 +19,7 @@ h3 {
      color: grey;
      text-decoration: none;
    }
-   
+
 a:visited {
   font-family: weiss;
   color: black;
