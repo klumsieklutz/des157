@@ -1,35 +1,39 @@
 body {
-  background-color: #e6fff7;
+  font-family: verdana,
 }
 
 li {
   list-style: none;
 }
 
-a:link {
-  font-family: verdana;
-  font-size: 20px;
-  color: #342e38;
-  text-decoration: none;
+h3 {
+  border-bottom:solid;
+  border-color:#00cc88;
+  color: grey;
 }
+ p{
+   color: grey; }
 
+   a:link {
+     font-family: weiss;
+     color: grey;
+     text-decoration: none;
+   }
+   
 a:visited {
-  font-family: verdana;
-  font-size: 20px;
-  color: white;
+  font-family: weiss;
+  color: black;
   text-decoration: none;
 }
 
 a:hover {
-  font-family: verdana;
-  font-size: 20px;
-  color: blue;
+  font-family: weiss;
+  color: #00cc88;
   text-decoration: none;
 }
 
 a:active {
-  font-family: bodoni;
-  font-size: 20px;
+  font-family: weiss;
   color: white;
   text-decoration: none;
 }
@@ -47,18 +51,16 @@ a:active {
 }
 
 #profile {
-  background-color: #ffe6e6;
-  height: 800px;
+  background-color: #00cc88;
+  height: 450px;
   float: left;
   margin: 20px;
-  border-style: solid;
   border-width: 6px;
-  border-color: #82738c;
   border-radius: 15px 50px 30px 5px;
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
-  color: #342e38;
+  color: grey;
   font-family: verdana;
   font-size: 13px;
 }
@@ -75,14 +77,10 @@ a:active {
 li {
   padding:5px;
 }
-footer {
-  position: fixed;
-  width: 782px;
+
+nav {
+  position: absolute;
   text-align: center;
-  bottom: 0px;
-  left: 259px;
-  border-width: 5px;
-  border-radius: 5px;
-  background-color: grey;
-  padding-top: 20px;
+  right: 0px;
+  padding-right:50px;
 }

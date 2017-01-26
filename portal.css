@@ -1,9 +1,22 @@
 body {
-  background-color: maroon;
+  font-family: verdana;
 }
 
+h1 {
+  border-bottom: solid;
+  border-color: #00cc88;
+  color: grey;
+}
+
+h2 {
+  color: #00cc88;
+}
+
+li {
+  list-style:none;
+}
 #page-wrap {
-  width: 1000px;
+  width: 800px;
   margin: 0 auto;
 }
 
@@ -29,29 +42,25 @@ body {
 }
 
 a:link {
-  font-family: verdana;
-  font-size: 20px;
-  color: black;
+  font-family: weiss;
+  color: grey;
   text-decoration: none;
 }
 
 a:visited {
-  font-family: verdana;
-  font-size: 20px;
+  font-family: weiss;
   color: black;
   text-decoration: none;
 }
 
 a:hover {
-  font-family: verdana;
-  font-size: 20px;
-  color: white;
+  font-family: weiss;
+  color: #00cc88;
   text-decoration: none;
 }
 
 a:active {
-  font-family: verdana;
-  font-size: 20px;
+  font-family: weiss;
   color: white;
   text-decoration: none;
 }
@@ -62,8 +71,4 @@ footer {
   text-align: center;
   bottom: 0px;
   left: 259px;
-  border-width: 5px;
-  border-radius: 5px;
-  background-color: grey;
-  padding-top: 20px;
 }
