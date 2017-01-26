@@ -1,0 +1,60 @@
+body {
+  font-family: verdana;
+
+}
+
+h1 {
+  border-bottom: solid;
+  border-color: grey;
+  color: #00cc88;
+}
+
+Section {
+  padding: 50px;
+}
+h2 {
+  text-align: center;
+  color: #00cc88;
+}
+
+nav {
+  position: absolute;
+  text-align: center;
+  right: 0px;
+  padding-right:50px;
+}
+
+a:link {
+  font-family: weiss;
+  color: grey;
+  text-decoration: none;
+}
+
+a:visited {
+  font-family: weiss;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  font-family: weiss;
+  color: #00cc88;
+  text-decoration: none;
+}
+
+a:active {
+  font-family: weiss;
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  text-align: left;
+  width: 800px;
+  margin: 0 auto;
+  color: grey;
+}
+
+center {
+  color: grey;
+}
