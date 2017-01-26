@@ -55,6 +55,7 @@ p {
   color: grey;
 }
 
-center {
+#center {
   color: grey;
+  text-align: center;
 }
