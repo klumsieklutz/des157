@@ -13,28 +13,15 @@ h2 {
 }
 
 li {
-  list-style:none;
+  list-style: none;
 }
+
 #page-wrap {
   width: 800px;
   margin: 0 auto;
 }
 
-#one {
-  height: 200px;
-  width: 200px;
-  float: left;
-  margin-top: 0px;
-}
-
-#two {
-  height: 200px;
-  width: 200px;
-  float: left;
-  margin-top: 0px;
-}
-
-#three {
+#one, #two, #three {
   height: 200px;
   width: 200px;
   float: left;
