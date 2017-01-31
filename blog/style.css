@@ -7,18 +7,20 @@ li {
 }
 
 h3 {
-  border-bottom:solid;
-  border-color:#00cc88;
+  border-bottom: solid;
+  border-color: #00cc88;
   color: grey;
 }
- p{
-   color: grey; }
 
-   a:link {
-     font-family: weiss;
-     color: grey;
-     text-decoration: none;
-   }
+p {
+  color: grey;
+}
+
+a:link {
+  font-family: weiss;
+  color: grey;
+  text-decoration: none;
+}
 
 a:visited {
   font-family: weiss;
@@ -39,21 +41,23 @@ a:active {
 }
 
 #page-wrap {
-  width: 800px;
+  width: 1000px;
   margin: 0 auto;
 }
 
-#entry1 {
+#entry1, #entry2 {
   width: 500px;
-  margin: 0 auto;
+  margin-left: 30%;
+  padding-right: 50px;
   font-family: verdana;
   color: #342e38;
 }
 
 #profile {
   background-color: #00cc88;
-  height: 450px;
+  position: fixed;
   float: left;
+  height: 450px;
   margin: 20px;
   border-width: 6px;
   border-radius: 15px 50px 30px 5px;
@@ -69,18 +73,12 @@ a:active {
   z-index: 1;
 }
 
-#scroll {
-  height: 850px;
-  overflow: auto;
-  padding-top: 30px;
-}
-
 li {
-  padding:5px;
+  padding: 5px;
 }
 
 nav {
-  position: absolute;
+  position: fixed;
   text-align: center;
   right: auto;
 }

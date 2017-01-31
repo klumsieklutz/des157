@@ -2,11 +2,12 @@
 
 /* CSS Document */
 
+
 /* start all css with a reset */
 
 * {
-    margin: 0px;
-    padding: 0px
+  margin: 0px;
+  padding: 0px
 }
 
 .hide {
@@ -19,34 +20,36 @@
 
 body {
   height: 1000px;
-  background-color:#bce5db;
+  background-color: #bce5db;
   font-family: Lucida Console;
   font-size: 18px;
 }
-h1, article{
+
+h1, section {
   text-align: center;
 }
+
 h1 {
-  position:relative;
-  top:5px;
-  left:24px;
-  z-index:1;
+  position: relative;
+  top: 5px;
+  left: 24px;
+  z-index: 1;
   color: #e6f7f3;
   font-family: Lucida Console;
   font-size: 50px;
   font-weight: bolder;
 }
 
-article {
-  position:relative;
-  top:-8px;
+section {
+  position: relative;
+  top: -8px;
   width: 50%;
   left: 30%;
   padding: 24px;
   color: #e6f7f3;
   font-size: 130%;
   font-weight: bold;
-  border-radius:18px;
+  border-radius: 18px;
   background-color: pink;
 }
 
@@ -54,44 +57,44 @@ div {
   margin: 15px;
 }
 
-label{
-  width:1.5in;
-  text-align:right;
-  display:inline-block;
-  padding-right:14px;
+label {
+  width: 1.5in;
+  text-align: right;
+  display: inline-block;
+  padding-right: 14px;
 }
 
-input[type="text"]{
-  width:2in;
-  padding:18px;
-  border:none;
-  border-radius:10px;
-  border-left:8px #9cafab solid;
-  border-right:8px #9cafab solid;
-  background-color:#c9ddd8;
-  font-weight:bold;
-  font-size:18px;
+input[type="text"] {
+  width: 2in;
+  padding: 18px;
+  border: none;
+  border-radius: 10px;
+  border-left: 8px #9cafab solid;
+  border-right: 8px #9cafab solid;
+  background-color: #c9ddd8;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 input[type=text]:focus {
-  border-bottom:8px cornflowerblue solid;
+  border-bottom: 8px cornflowerblue solid;
   background-color: white;
-  color:#c9ddd8;
+  color: #c9ddd8;
 }
 
 input[type="reset"], input[type="submit"] {
-  position:relative;
-  left:1.77in;
-  top:14px;
-  padding:12px;
-  border:none;
-  border-radius:10px;
-  border-left:4px orange solid;
-  border-right:4px orange solid;
-  background-color:antiquewhite;
+  position: relative;
+  left: 1.77in;
+  top: 14px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  border-left: 4px orange solid;
+  border-right: 4px orange solid;
+  background-color: antiquewhite;
   color: grey;
-  font-weight:bold;
-  font-size:18px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 footer {

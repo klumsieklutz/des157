@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     //define process function
     function processForm() {
 
-      console.log('processing');
+        console.log('processing');
 
         //store inputs in variable
         var food = document.f.food.value;
@@ -25,24 +25,23 @@ document.addEventListener("DOMContentLoaded", function(event) {
         var ingVerb = document.f.ingVerb.value;
 
         //call a new message to concatenate a message with inputs
-        if (food =="" || plant =="" || adj =="" || animal =="" || ingVerb =="") {
-          alert("What are you doing? The blanks needs to be filled in!!")
+        if (food == "" || plant == "" || adj == "" || animal == "" || ingVerb == "") {
+            alert("What are you doing? The blanks needs to be filled in!!")
+        } else {
+            var myMsg = document.getElementById("myMsg");
+            console.log(food);
+
+            myMsg.innerHTML = "Somebody once told me the world is a " + food + ". So I took a bite out of a " + plant + ". It tasted kind of " + adj + ". So I spitted it on a " + animal + ", and the " + animal + " started " + ingVerb + " on me";
+            myMsg.className = "show";
         }
-        else {
-        var myMsg = document.getElementById("myMsg");
-        console.log(food);
+        //prevents page from reloading
+        return false;
+    }
 
-        myMsg.innerHTML = "Somebody once told me the world is a " +  food + ". So I took a bite out of a " +  plant + ". It tasted kind of " + adj + ". So I spitted it on a " + animal + ", and the " + animal + " started " + ingVerb + " on me";
-        myMsg.className = "show";
-      }
-      //prevents page from reloading
-      return false;
-      }
-
-      //define clear fucntion
-      function clearForm() {
+    //define clear fucntion
+    function clearForm() {
         myMsg.className = "hide";
-      }
+    }
 
 
 });
