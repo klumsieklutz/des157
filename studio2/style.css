@@ -8,3 +8,11 @@
     margin: 0px;
     padding: 0px
 }
+
+.hide {
+  display: none;
+}
+
+.show {
+  desiplay: block;
+}

@@ -9,6 +9,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
     //capture the submit event
     document.f.onsubmit = processForm;
 
+    //capture the reset event
+    document.f.onreset = clearForm;
+
     //define process function
     function processForm() {
 
@@ -26,10 +29,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
         console.log(food);
 
         myMsg.innerHTML = "Somebody once told me the world is a " +  food + ". So I took a bite out of a " +  plant + ". It tasted kind of " + adj + ". So I spitted it on a " + animal + ", and the " + animal + " started " + ingVerb + " on me";
+        myMsg.className = "show";
 
       return false;
       }
 
+      //define clear fucntion
+      function clearForm() {
+        myMsg.className = "hide";
+      }
 
 
 });
