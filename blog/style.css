@@ -72,6 +72,7 @@ a:active {
 #scroll {
   height: 850px;
   overflow: auto;
+  padding-top: 30px;
 }
 
 li {
@@ -81,6 +82,5 @@ li {
 nav {
   position: absolute;
   text-align: center;
-  right: 0px;
-  padding-right:50px;
+  right: auto;
 }
