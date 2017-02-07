@@ -23,7 +23,7 @@ body {
 
 .underline {
   border-bottom: solid;
-  border-color: #42f48f;
+  border-color: #00cc88;
 }
 
 header, h6 {
@@ -31,7 +31,8 @@ header, h6 {
   font-family: 'Kaushan Script', cursive;
 }
 
-p, li {
+p, li, h6 {
+  padding-top: 20px;
   width: 500px;
   text-align: left;
   font-family: 'Old Standard TT', serif;
@@ -90,6 +91,7 @@ aside{
   position: relative;
   text-align: center;
   padding-left: 200px;
+  padding-top: 20px;
 }
 ul, close {
   float:left;
@@ -100,4 +102,28 @@ ul, close {
 
 li {
   font-size: 20px;
+}
+
+a:link {
+  font-family: weiss;
+  color: grey;
+  text-decoration: none;
+}
+
+a:visited {
+  font-family: weiss;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  font-family: weiss;
+  color: #00cc88;
+  text-decoration: none;
+}
+
+a:active {
+  font-family: weiss;
+  color: white;
+  text-decoration: none;
 }
