@@ -6,23 +6,98 @@
 /* start all css with a reset */
 
 * {
-  margin: 0;
+  margin: auto;
   padding: 2px;
 }
 
 body {
   text-align: center;
+  width: 1000px;
+  color: #7f8481;
+}
+
+#myDiv
+{
+    cursor: pointer;
 }
 
 .underline {
   border-bottom: solid;
+  border-color: #42f48f;
 }
 
-header, section {
+header, h6 {
   position: relative;
+  font-family: 'Kaushan Script', cursive;
+}
+
+p, li {
+  width: 500px;
+  text-align: left;
+  font-family: 'Old Standard TT', serif;
 }
 
 main {
   position: relative;
-  width: 1000px;
+  width: 900px;
+}
+
+#spring {
+  position: absolute;
+  left: 35px;
+}
+#bamboo {
+  position:absolute;
+  left: 181px;
+}
+
+#fun {
+  position: absolute;
+  left: 321px;
+}
+
+#above {
+  position: absolute;
+  left: 416px;
+}
+
+#love {
+  position: absolute;
+  left: 514px;
+}
+
+#opposites {
+  position: absolute;
+  left: 588px;
+}
+
+aside{
+  position:absolute;
+  top:0px;
+  right:0px;
+  width:100%;
+  height:100%;
+  background-color:#000;
+  color:#7f8481;
+  display:none;
+  opacity:.95;
+  font-size: 40px;
+
+}
+
+.floatBox {
+  float:left;
+  position: relative;
+  text-align: center;
+  padding-left: 200px;
+}
+ul, close {
+  float:left;
+  list-style-type: none;
+  text-align: left;
+  padding-left: 20px;
+}
+
+li {
+  font-size: 20px;
 }
