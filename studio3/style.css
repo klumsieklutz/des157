@@ -16,9 +16,8 @@ body {
   color: #7f8481;
 }
 
-#myDiv
-{
-    cursor: pointer;
+#myDiv {
+  cursor: pointer;
 }
 
 .underline {
@@ -47,8 +46,9 @@ main {
   position: absolute;
   left: 35px;
 }
+
 #bamboo {
-  position:absolute;
+  position: absolute;
   left: 181px;
 }
 
@@ -72,29 +72,29 @@ main {
   left: 588px;
 }
 
-aside{
-  position:absolute;
-  top:0px;
-  right:0px;
-  width:100%;
-  height:100%;
-  background-color:#000;
-  color:#7f8481;
-  display:none;
-  opacity:.95;
+aside {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  color: #7f8481;
+  display: none;
+  opacity: .90;
   font-size: 40px;
-
 }
 
 .floatBox {
-  float:left;
+  float: left;
   position: relative;
   text-align: center;
   padding-left: 200px;
   padding-top: 20px;
 }
+
 ul, close {
-  float:left;
+  float: left;
   list-style-type: none;
   text-align: left;
   padding-left: 20px;
