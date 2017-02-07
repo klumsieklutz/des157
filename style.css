@@ -28,12 +28,6 @@ li {
   margin-top: 0px;
 }
 
-nav {
-  border-left: solid;
-  border-right: solid;
-  border-color: #00cc88;
-}
-
 a:link {
   font-family: weiss;
   color: grey;
