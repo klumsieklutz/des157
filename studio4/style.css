@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* start all css with a reset */
+
+* {
+  margin: auto;
+  padding: 2px;
+}
+
+body {
+  width: 1000px;
+  color: #7f8481;
+  background-color: white;
+  font-family: 'Pacifico', cursive;
+}
+
+.tip {
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #edf2f9;
+    opacity: 0;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    text-align: center;
+    position: absolute;
+    top: 268px;
+    left: 500px;
+}
+
+#agenda {
+  position:absolute;
+  left: 177px;
+  z-index: -1;
+
+}
+
+#trip {
+  position: absolute;
+  top: 286px;
+  left: 311px;
+}
+
+#year {
+  position: absolute;
+  top: 137px;
+  left: 321px;
+}
+
+#ia {
+  position: absolute;
+  top: 289px;
+  left: 888px;
+}
+
+#revived {
+  position: absolute;
+  top: 297px;
+  left: 992px;
+}
+
+nav {
+  position: absolute;
+  top: 720px;
+  left: 600px;
+}
+
+a:link {
+  font-family: weiss;
+  color: grey;
+  text-decoration: none;
+}
+
+a:visited {
+  font-family: weiss;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  font-family: weiss;
+  color: #00cc88;
+  text-decoration: none;
+}
+
+a:active {
+  font-family: weiss;
+  color: white;
+  text-decoration: none;
+}
