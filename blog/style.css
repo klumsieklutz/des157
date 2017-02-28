@@ -12,7 +12,7 @@ h3 {
   color: grey;
 }
 
-p {
+p, h4 {
   color: grey;
 }
 
@@ -45,7 +45,7 @@ a:active {
   margin: 0 auto;
 }
 
-#entry1, #entry2, #entry3, #entry4, #entry5 {
+.entry {
   width: 500px;
   margin-left: 30%;
   padding-right: 50px;
