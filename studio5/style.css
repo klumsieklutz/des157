@@ -27,8 +27,8 @@ h6 {
 
 #rightBox {
   position: absolute;
-  left:250px;
-  float:left;
+  left: 250px;
+  float: left;
   width: 400px;
   height: 450px;
   background-image: url("images/room.png");
@@ -39,7 +39,7 @@ h6 {
 #leftBox {
   position: absolute;
   left: 710px;
-  float:left;
+  float: left;
   width: 400px;
   height: 450px;
   background-color: lightblue;
@@ -47,18 +47,17 @@ h6 {
   border-radius: 10px;
 }
 
-#doll, #garment1, #garment2, #garment3{
+#doll, #garment1, #garment2, #garment3 {
   position: absolute;
   top: 100px;
 }
 
-
-#trashBox{
+#trashBox {
   float: left;
   position: absolute;
   left: 160px;
   top: 380px;
-  }
+}
 
 a:link {
   font-family: 'Pacifico', cursive;

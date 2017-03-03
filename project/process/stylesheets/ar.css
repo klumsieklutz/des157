@@ -11,10 +11,11 @@ h1 {
 li {
   color: grey;
 }
+
 Section {
   padding: 50px;
   float: left;
-   border-radius: 10px;
+  border-radius: 10px;
 }
 
 h2 {

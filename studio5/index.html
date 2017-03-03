@@ -7,52 +7,50 @@
     <link href="style.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <script>
-    function allowDrop(ev) {
-      ev.preventDefault();
-  }
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
 
-  function drag(ev) {
-      ev.dataTransfer.setData("text", ev.target.id);
-  }
+        function drag(ev) {
+            ev.dataTransfer.setData("text", ev.target.id);
+        }
 
-  function drop(ev) {
-      ev.preventDefault();
-      var data = ev.dataTransfer.getData("text");
-      ev.target.appendChild(document.getElementById(data));
-  }
+        function drop(ev) {
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("text");
+            ev.target.appendChild(document.getElementById(data));
+        }
 
-  function show(ev) {
-      var doll = document.getElementById("doll");
-      img1.style.opacity = 1;
-  }
+        function show(ev) {
+            var doll = document.getElementById("doll");
+            img1.style.opacity = 1;
+        }
     </script>
 </head>
 
 <body>
     <header>
         <h1>Doll Dress Up</h1></header>
-        <nav>
-            <a href="https://validator.w3.org/check?uri=referer">HTML 5</a>
-            <a href="https://jigsaw.w3.org/css-validator/check/referer">CSS</a>
-        </nav>
+    <nav>
+        <a href="https://validator.w3.org/check?uri=referer">HTML 5</a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">CSS</a>
+    </nav>
 
-        <section id="trashBox" ondrop="drop(event)" ondragover="allowDrop(event)" ondragend="show(event)">
-          <h6>hide</h6><img src="images/trash.png" alt="trash">
-        </section>
+    <section id="trashBox" ondrop="drop(event)" ondragover="allowDrop(event)" ondragend="show(event)">
+        <h6>hide</h6><img src="images/trash.png" alt="trash">
+    </section>
 
-      <section id="rightBox" ondrop="drop(event)" ondragover="allowDrop(event)" ondragend="show(event)">
-        <h6>hide</h6><img id= "doll" src="images/doll.png" alt="doll">
-        </section>
+    <section id="rightBox" ondrop="drop(event)" ondragover="allowDrop(event)" ondragend="show(event)">
+        <h6>hide</h6><img id="doll" src="images/doll.png" alt="doll">
+    </section>
 
-    <section id="leftBox" ondrop="drop(event)" ondragover="allowDrop(event)"><h6>hide</h6>
-      <p>Drag and Drop clothes to the left box.</p>
-      <p>Then Drag clothes to the trash icon to delete.</p>
-        <img id="garment1" src="images/garment1.png" draggable="true" ondragstart="drag(event)"
-         alt="garment1">
-         <img id="garment2" src="images/garment2.png" draggable="true" ondragstart="drag(event)"
-          alt="garment2">
-          <img id="garment3" src="images/garment3.png" draggable="true" ondragstart="drag(event)"
-           alt="garment3">
+    <section id="leftBox" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <h6>hide</h6>
+        <p>Drag and Drop clothes to the left box.</p>
+        <p>Then Drag clothes to the trash icon to delete.</p>
+        <img id="garment1" src="images/garment1.png" draggable="true" ondragstart="drag(event)" alt="garment1">
+        <img id="garment2" src="images/garment2.png" draggable="true" ondragstart="drag(event)" alt="garment2">
+        <img id="garment3" src="images/garment3.png" draggable="true" ondragstart="drag(event)" alt="garment3">
     </section>
 
 </body>
