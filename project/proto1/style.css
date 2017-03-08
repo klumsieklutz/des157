@@ -1,0 +1,49 @@
+#navBar {
+  background-color: red;
+  text-align: right;
+  right: 0px;
+}
+
+main {
+  background-color: black;
+  width: 100%;
+  height: 1000px;
+}
+
+section {
+  background-color: grey;
+  width: 500px;
+  height: 1000px;
+  margin: auto;
+}
+
+#footer {
+  width: 100%;
+  height: 200px;
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+a:link {
+  font-family: weiss;
+  color: grey;
+  text-decoration: none;
+}
+
+a:visited {
+  font-family: weiss;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  font-family: weiss;
+  color: #00cc88;
+  text-decoration: none;
+}
+
+a:active {
+  font-family: weiss;
+  color: white;
+  text-decoration: none;
+}
