@@ -51,7 +51,6 @@ footer {
 .footli {
   list-style: none;
   display:grid;
-  background-color:none;
   float: none;
   border: none;
 }
@@ -67,7 +66,6 @@ h4 {
 footer li a {
   display: block;
   padding: 0px;
-  background-color: none;
 }
 .active {
   background-color: #f8c94d;
